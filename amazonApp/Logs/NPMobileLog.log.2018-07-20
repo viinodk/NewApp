@@ -1,8 +1,0 @@
-[INFO] 2018-07-20 08:12:16,790 testScripts.TestScript1 login - Starting execution of the test case login
-[INFO] 2018-07-20 08:15:24,332 testScripts.TestScript1 login - Starting execution of the test case login
-[INFO] 2018-07-20 11:15:47,952 testScripts.TestScript1 login - Starting execution of the test case for valid loginnull
-[INFO] 2018-07-20 12:22:15,406 testScripts.TestScript1 login - Starting execution of the test case for valid loginnull
-[INFO] 2018-07-20 12:23:24,969 testScripts.TestScript1 vfyAssignedToMe - Starting exection of the test case for verify login
-[INFO] 2018-07-20 13:18:27,314 testScripts.TestScript1 login - Starting execution of the test case for valid loginnull
-[INFO] 2018-07-20 13:19:34,909 testScripts.TestScript1 vfyAssignedToMe - Starting exection of the test case for verify login
-[INFO] 2018-07-20 13:23:24,110 testScripts.TestScript1 vfyAssignedToMe - Starting exection of the test case for verify login
