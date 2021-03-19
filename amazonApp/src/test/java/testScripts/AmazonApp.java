@@ -30,7 +30,9 @@ public class AmazonApp extends TestDriver {
 	}
 	Logger logger = Logger.getLogger(AmazonApp.class);
 	
-	
+	/*
+	 * launches amazon app
+	 */
 	@Test(dataProvider = "commondata", dataProviderClass = TestDataFromExcel.class, groups={"Regression","NP"}, priority=1)
 	public void launchApp(Map hm) throws Exception{
 		String tcid = CommonHelpers.initReports(hm);
@@ -42,7 +44,9 @@ public class AmazonApp extends TestDriver {
 		}
 	}
 	
-	
+	/*
+	 * Verify Hamburger menu item after app is launched
+	 */
 	@Test(dependsOnMethods = {"launchApp"}, dataProvider = "commondata", dataProviderClass = TestDataFromExcel.class, groups={"Regression","NP"}, priority=2)
 	public void verifyHamburgerClick(Map hm)throws Exception {
 		String tcid = CommonHelpers.initReports(hm);
@@ -53,7 +57,9 @@ public class AmazonApp extends TestDriver {
 	}
 	
 	
-	
+	/*
+	 * Click on settings after scroll down dynamically to Settings
+	 */
 	@Test(dependsOnMethods = {"verifyHamburgerClick"}, dataProvider = "commondata", dataProviderClass = TestDataFromExcel.class, groups={"Regression"}, priority=2)
 	public void clickOnSettings(Map hm) throws Exception {
 		String tcid = CommonHelpers.initReports(hm);
@@ -65,7 +71,9 @@ public class AmazonApp extends TestDriver {
 		
 		
 	}
-	
+	/*
+	 * Click on settings to change country
+	 */
 	@Test(dependsOnMethods = {"clickOnSettings"}, dataProvider = "commondata", dataProviderClass = TestDataFromExcel.class, groups={"Regression"}, priority=3)
 	public void verifyCountryList(Map hm) throws Exception {
 		String tcid = CommonHelpers.initReports(hm);
@@ -82,6 +90,9 @@ public class AmazonApp extends TestDriver {
 		
 	}
 	
+	/*
+	 * click on confirm settings after selecting Austraila as country
+	 */
 	@Test(dependsOnMethods = {"verifyCountryList"}, dataProvider = "commondata", dataProviderClass = TestDataFromExcel.class, groups={"Regression"}, priority=4)
 	public void changeCountry(Map hm) throws Exception {
 		String tcid = CommonHelpers.initReports(hm);
