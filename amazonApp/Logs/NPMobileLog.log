@@ -1,0 +1,137 @@
+[INFO] 2021-03-19 00:59:57,708 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 01:00:03,309 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 01:02:18,315 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 01:02:23,971 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 01:04:15,434 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 01:04:22,090 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 01:04:25,099 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 01:28:34,730 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 01:28:41,230 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 01:28:44,356 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 01:32:03,858 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 01:32:11,913 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 01:32:15,138 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 01:35:22,872 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 01:35:28,708 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 01:35:31,837 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 01:48:36,988 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 01:48:42,172 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 01:48:45,404 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 01:48:54,182 testScripts.AmazonApp clickOnSettings - Starting execution of the test case for - clickOnSettings
+[INFO] 2021-03-19 01:51:49,618 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 01:51:53,597 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 01:51:56,877 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 01:52:03,953 testScripts.AmazonApp clickOnSettings - Starting execution of the test case for - clickOnSettings
+[INFO] 2021-03-19 01:54:15,241 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 01:54:21,449 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 01:54:24,724 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 01:54:34,671 testScripts.AmazonApp clickOnSettings - Starting execution of the test case for - clickOnSettings
+[INFO] 2021-03-19 01:56:01,568 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 01:56:06,986 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 01:56:10,326 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 01:56:19,632 testScripts.AmazonApp clickOnSettings - Starting execution of the test case for - clickOnSettings
+[INFO] 2021-03-19 01:59:39,091 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 01:59:42,204 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 01:59:45,589 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 01:59:52,606 testScripts.AmazonApp clickOnSettings - Starting execution of the test case for - clickOnSettings
+[INFO] 2021-03-19 02:05:34,139 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 02:05:41,188 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 02:05:44,566 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 02:05:50,784 testScripts.AmazonApp clickOnSettings - Starting execution of the test case for - clickOnSettings
+[INFO] 2021-03-19 02:16:20,572 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 02:16:24,446 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 02:16:27,822 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 02:16:34,860 testScripts.AmazonApp clickOnSettings - Starting execution of the test case for - clickOnSettings
+[INFO] 2021-03-19 02:23:34,979 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 02:23:41,669 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 02:23:45,051 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 02:23:52,024 testScripts.AmazonApp clickOnSettings - Starting execution of the test case for - clickOnSettings
+[INFO] 2021-03-19 10:46:27,118 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 10:46:33,342 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 10:46:36,306 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 10:46:42,320 testScripts.AmazonApp clickOnSettings - Starting execution of the test case for - clickOnSettings
+[INFO] 2021-03-19 12:15:58,067 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 12:16:03,617 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 12:16:06,584 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 12:16:17,354 testScripts.AmazonApp clickOnSettings - Starting execution of the test case for - clickOnSettings
+[INFO] 2021-03-19 12:26:02,903 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 12:26:08,357 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 12:26:11,311 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 12:26:20,494 testScripts.AmazonApp clickOnSettings - Starting execution of the test case for - clickOnSettings
+[INFO] 2021-03-19 12:46:23,322 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 12:46:29,613 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 12:46:32,621 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 12:46:41,460 testScripts.AmazonApp clickOnSettings - Starting execution of the test case for - clickOnSettings
+[INFO] 2021-03-19 12:48:33,905 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 12:48:40,422 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 12:48:43,425 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 12:48:49,998 testScripts.AmazonApp clickOnSettings - Starting execution of the test case for - clickOnSettings
+[INFO] 2021-03-19 12:52:09,837 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 12:52:15,598 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 12:52:18,558 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 12:52:27,972 testScripts.AmazonApp clickOnSettings - Starting execution of the test case for - clickOnSettings
+[INFO] 2021-03-19 13:02:56,956 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 13:03:05,474 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 13:03:08,595 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 13:03:14,340 testScripts.AmazonApp clickOnSettings - Starting execution of the test case for - clickOnSettings
+[INFO] 2021-03-19 13:06:44,585 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 13:06:50,294 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 13:06:53,297 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 13:07:02,416 testScripts.AmazonApp clickOnSettings - Starting execution of the test case for - clickOnSettings
+[INFO] 2021-03-19 13:08:35,666 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 13:08:39,219 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 13:09:20,101 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 13:09:22,775 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 13:09:25,958 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 13:10:24,949 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 13:10:32,755 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 13:10:36,955 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 13:10:43,521 testScripts.AmazonApp clickOnSettings - Starting execution of the test case for - clickOnSettings
+[INFO] 2021-03-19 13:12:03,060 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 13:12:09,355 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 13:12:12,561 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 13:12:19,694 testScripts.AmazonApp clickOnSettings - Starting execution of the test case for - clickOnSettings
+[INFO] 2021-03-19 13:33:44,666 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 13:33:48,522 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 13:33:51,441 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 13:33:58,055 testScripts.AmazonApp clickOnSettings - Starting execution of the test case for - clickOnSettings
+[INFO] 2021-03-19 13:35:50,370 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 13:35:54,423 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 13:35:57,827 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 13:36:06,453 testScripts.AmazonApp clickOnSettings - Starting execution of the test case for - clickOnSettings
+[INFO] 2021-03-19 15:27:18,998 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 15:29:45,885 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 15:34:34,890 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 15:39:37,786 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 15:44:20,426 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 15:46:24,520 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 15:50:23,871 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 16:29:01,577 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 16:29:04,721 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 16:30:49,839 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 16:30:56,095 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 16:30:59,872 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 16:53:30,611 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 16:53:32,668 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 16:53:36,751 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 16:53:43,564 testScripts.AmazonApp clickOnSettings - Starting execution of the test case for - clickOnSettings
+[INFO] 2021-03-19 16:56:13,930 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 16:56:16,910 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 16:56:20,257 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 16:56:26,696 testScripts.AmazonApp clickOnSettings - Starting execution of the test case for - clickOnSettings
+[INFO] 2021-03-19 17:16:15,111 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 17:16:19,137 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 17:16:21,816 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 17:16:27,602 testScripts.AmazonApp clickOnSettings - Starting execution of the test case for - clickOnSettings
+[INFO] 2021-03-19 17:20:01,668 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 17:20:04,281 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 17:20:06,980 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 17:20:12,131 testScripts.AmazonApp clickOnSettings - Starting execution of the test case for - clickOnSettings
+[INFO] 2021-03-19 17:22:27,762 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 17:22:34,162 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 17:22:37,106 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 17:22:48,007 testScripts.AmazonApp clickOnSettings - Starting execution of the test case for - clickOnSettings
+[INFO] 2021-03-19 17:24:22,292 testScripts.AmazonApp launchApp - Starting execution of the test case for - launchApp
+[INFO] 2021-03-19 17:24:26,844 testScripts.AmazonApp launchApp - Test case launchApp passed
+[INFO] 2021-03-19 17:24:31,295 testScripts.AmazonApp verifyHamburgerClick - Starting execution of the test case for - verifyHamburgerClick
+[INFO] 2021-03-19 17:24:37,753 testScripts.AmazonApp clickOnSettings - Starting execution of the test case for - clickOnSettings

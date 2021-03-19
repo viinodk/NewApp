@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-19T11:54:17Z" name="Default suite" finished-at="2021-03-19T11:55:43Z" duration-ms="86636">
+    <groups>
+      <group name="NP">
+        <method signature="AmazonApp.launchApp(java.util.Map)[pri:1, instance:testScripts.AmazonApp@6b53bcc2]" name="launchApp" class="testScripts.AmazonApp"/>
+        <method signature="AmazonApp.verifyHamburgerClick(java.util.Map)[pri:2, instance:testScripts.AmazonApp@6b53bcc2]" name="verifyHamburgerClick" class="testScripts.AmazonApp"/>
+      </group> <!-- NP -->
+      <group name="Regression">
+        <method signature="AmazonApp.launchApp(java.util.Map)[pri:1, instance:testScripts.AmazonApp@6b53bcc2]" name="launchApp" class="testScripts.AmazonApp"/>
+        <method signature="AmazonApp.verifyHamburgerClick(java.util.Map)[pri:2, instance:testScripts.AmazonApp@6b53bcc2]" name="verifyHamburgerClick" class="testScripts.AmazonApp"/>
+        <method signature="AmazonApp.clickOnSettings(java.util.Map)[pri:2, instance:testScripts.AmazonApp@6b53bcc2]" name="clickOnSettings" class="testScripts.AmazonApp"/>
+        <method signature="AmazonApp.verifyCountryList(java.util.Map)[pri:3, instance:testScripts.AmazonApp@6b53bcc2]" name="verifyCountryList" class="testScripts.AmazonApp"/>
+        <method signature="AmazonApp.changeCountry(java.util.Map)[pri:4, instance:testScripts.AmazonApp@6b53bcc2]" name="changeCountry" class="testScripts.AmazonApp"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2021-03-19T11:54:17Z" name="Default test" finished-at="2021-03-19T11:55:43Z" duration-ms="86636">
+      <class name="testScripts.AmazonApp">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testScripts.AmazonApp@6b53bcc2]" started-at="2021-03-19T17:24:00Z" name="setUp" finished-at="2021-03-19T17:24:17Z" duration-ms="16947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openAppAfterLaunch()[pri:0, instance:testScripts.AmazonApp@6b53bcc2]" started-at="2021-03-19T17:24:18Z" name="openAppAfterLaunch" finished-at="2021-03-19T17:24:22Z" duration-ms="3714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppAfterLaunch -->
+        <test-method signature="launchApp(java.util.Map)[pri:1, instance:testScripts.AmazonApp@6b53bcc2]" started-at="2021-03-19T17:24:22Z" name="launchApp" data-provider="commondata" finished-at="2021-03-19T17:24:26Z" duration-ms="4569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Script=launchApp, country=Australia (English), TC_ID=launchApp, Execute=Y, Exp message=NA, ChangeCountryText=Change Country, testCaseName=NA, responsibleTester=VinodK, testDescription=verify user is able to launch app, scenarioDescription=verify user is able to launch app, Settings=settings}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:testScripts.AmazonApp@6b53bcc2]" started-at="2021-03-19T17:24:26Z" name="closeApp" finished-at="2021-03-19T17:24:26Z" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=launchApp status=SUCCESS method=AmazonApp.launchApp(java.util.Map)[pri:1, instance:testScripts.AmazonApp@6b53bcc2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="openAppAfterLaunch()[pri:0, instance:testScripts.AmazonApp@6b53bcc2]" started-at="2021-03-19T17:24:27Z" name="openAppAfterLaunch" finished-at="2021-03-19T17:24:31Z" duration-ms="4038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppAfterLaunch -->
+        <test-method signature="verifyHamburgerClick(java.util.Map)[pri:2, instance:testScripts.AmazonApp@6b53bcc2]" started-at="2021-03-19T17:24:31Z" name="verifyHamburgerClick" data-provider="commondata" finished-at="2021-03-19T17:24:33Z" depends-on-methods="testScripts.AmazonApp.launchApp" duration-ms="2231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Script=verifyHamburgerClick, country=Australia (English), TC_ID=verifyHamburgerClick, Execute=Y, Exp message=NA, ChangeCountryText=Change Country, testCaseName=NA, responsibleTester=VinodK, testDescription=Verify user is able to click Hamburger item, scenarioDescription=Verify user is able to click Hamburger item, Settings=settings}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHamburgerClick -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:testScripts.AmazonApp@6b53bcc2]" started-at="2021-03-19T17:24:33Z" name="closeApp" finished-at="2021-03-19T17:24:33Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHamburgerClick status=SUCCESS method=AmazonApp.verifyHamburgerClick(java.util.Map)[pri:2, instance:testScripts.AmazonApp@6b53bcc2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="openAppAfterLaunch()[pri:0, instance:testScripts.AmazonApp@6b53bcc2]" started-at="2021-03-19T17:24:33Z" name="openAppAfterLaunch" finished-at="2021-03-19T17:24:37Z" duration-ms="4044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppAfterLaunch -->
+        <test-method signature="clickOnSettings(java.util.Map)[pri:2, instance:testScripts.AmazonApp@6b53bcc2]" started-at="2021-03-19T17:24:37Z" name="clickOnSettings" data-provider="commondata" finished-at="2021-03-19T17:24:51Z" depends-on-methods="testScripts.AmazonApp.verifyHamburgerClick" duration-ms="14011" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Script=clickOnSettings, country=Australia (English), TC_ID=clickOnSettings, Execute=Y, Exp message=NA, ChangeCountryText=Change Country, testCaseName=NA, responsibleTester=VinodK, testDescription=Verify user is able to click on Settings, scenarioDescription=Verify user is able to click on Settings, Settings=settings}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSettings -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:testScripts.AmazonApp@6b53bcc2]" started-at="2021-03-19T17:24:51Z" name="closeApp" finished-at="2021-03-19T17:24:51Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnSettings status=SUCCESS method=AmazonApp.clickOnSettings(java.util.Map)[pri:2, instance:testScripts.AmazonApp@6b53bcc2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="openAppAfterLaunch()[pri:0, instance:testScripts.AmazonApp@6b53bcc2]" started-at="2021-03-19T17:24:51Z" name="openAppAfterLaunch" finished-at="2021-03-19T17:24:54Z" duration-ms="2907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppAfterLaunch -->
+        <test-method signature="verifyCountryList(java.util.Map)[pri:3, instance:testScripts.AmazonApp@6b53bcc2]" started-at="2021-03-19T17:24:54Z" name="verifyCountryList" data-provider="commondata" finished-at="2021-03-19T17:25:16Z" depends-on-methods="testScripts.AmazonApp.clickOnSettings" duration-ms="21366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Script=verifyCountryList, country=Australia (English), TC_ID=verifyCountryList, Execute=Y, Exp message=NA, ChangeCountryText=Change Country, testCaseName=NA, responsibleTester=VinodK, testDescription=Verify user is able to verify Country list, scenarioDescription=Verify user is able to verify Country list, Settings=settings}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCountryList -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:testScripts.AmazonApp@6b53bcc2]" started-at="2021-03-19T17:25:16Z" name="closeApp" finished-at="2021-03-19T17:25:16Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCountryList status=SUCCESS method=AmazonApp.verifyCountryList(java.util.Map)[pri:3, instance:testScripts.AmazonApp@6b53bcc2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="openAppAfterLaunch()[pri:0, instance:testScripts.AmazonApp@6b53bcc2]" started-at="2021-03-19T17:25:16Z" name="openAppAfterLaunch" finished-at="2021-03-19T17:25:19Z" duration-ms="2711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppAfterLaunch -->
+        <test-method signature="changeCountry(java.util.Map)[pri:4, instance:testScripts.AmazonApp@6b53bcc2]" started-at="2021-03-19T17:25:19Z" name="changeCountry" data-provider="commondata" finished-at="2021-03-19T17:25:40Z" depends-on-methods="testScripts.AmazonApp.verifyCountryList" duration-ms="21572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Script=changeCountry, country=Australia (English), TC_ID=changeCountry, Execute=Y, Exp message=NA, ChangeCountryText=Change Country, testCaseName=NA, responsibleTester=VinodK, testDescription=Verify user is able to Change Country, scenarioDescription=Verify user is able to Change Country, Settings=settings}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeCountry -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:testScripts.AmazonApp@6b53bcc2]" started-at="2021-03-19T17:25:40Z" name="closeApp" finished-at="2021-03-19T17:25:40Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=changeCountry status=SUCCESS method=AmazonApp.changeCountry(java.util.Map)[pri:4, instance:testScripts.AmazonApp@6b53bcc2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.AmazonApp@6b53bcc2]" started-at="2021-03-19T17:25:40Z" name="tearDown" finished-at="2021-03-19T17:25:43Z" duration-ms="3274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="closeSuite()[pri:0, instance:testScripts.AmazonApp@6b53bcc2]" started-at="2021-03-19T17:25:43Z" name="closeSuite" finished-at="2021-03-19T17:25:44Z" duration-ms="662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSuite -->
+      </class> <!-- testScripts.AmazonApp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
