@@ -62,11 +62,6 @@ public class AmazonApp extends TestDriver {
 		HamburgerPage hamburgerPage = new HamburgerPage(driver);
 		hamburgerPage.clickHamburg();
 		aha.scrollAndClick("Settings");
-		/*
-		 * MobileElement el1 = (MobileElement) driver.findElementById(
-		 * "in.amazon.mShop.android.shopping:id/glow_subnav_ingress"); el1.click();
-		 * aha.scrollAndClick("Australia (English)");
-		 */
 		
 		
 	}
