@@ -25,18 +25,19 @@ public class GenericMethods {
 		
 		public void installAndOpenApp() throws MalformedURLException{
 			File f = new File(frameworkPath);
-	 
+			File fs = new File(f,"Amazon_shopping.apk");
 	        DesiredCapabilities cap = new DesiredCapabilities();
 	      	cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2");	
 	      	cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Galaxy On7 Prime");
-	        cap.setCapability(MobileCapabilityType.APPLICATION_NAME, "in.amazon.mShop.android.shopping");
-	        cap.setCapability("appPackage","in.amazon.mShop.android.shopping");
+	        //cap.setCapability(MobileCapabilityType.APPLICATION_NAME, "in.amazon.mShop.android.shopping");
+	        cap.setCapability(MobileCapabilityType.APPLICATION_NAME, "com.amazon.mShop.android.shopping");
+	        //cap.setCapability("appPackage","in.amazon.mShop.android.shopping");
+	        cap.setCapability("appPackage","com.amazon.mShop.android.shopping");
 	        cap.setCapability("appActivity","com.amazon.mShop.splashscreen.StartupActivity");
 	        cap.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-				
-				cap.setCapability("noReset", "true");
-				cap.setCapability("newCommandTimeout","10000");
-				cap.setCapability("adbExecTimeout", "35000");
+	       	cap.setCapability("noReset", "true");
+			cap.setCapability("newCommandTimeout","10000");
+			cap.setCapability("adbExecTimeout", "35000");
 				
 			
 	        	

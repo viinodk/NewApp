@@ -10,9 +10,31 @@ import io.appium.java_client.android.AndroidElement;
 public class LandinggPage {
 AppiumDriver<AndroidElement> driver;
 	
-	@FindBy(id="in.amazon.mShop.android.shopping:id/chrome_action_bar_home_logo")
+	@FindBy(id="com.amazon.mShop.android.shopping:id/chrome_action_bar_home_logo")
 	private WebElement vLandingHome;
 	
+	@FindBy(id="com.amazon.mShop.android.shopping:id/rs_search_src_text")
+	private WebElement vLandingSearch;
+	
+	@FindBy(id="com.amazon.mShop.android.shopping:id/search_right_cam_img")
+	private WebElement vLandingSearchImg;
+	
+	public WebElement getvLandingSearchImg() {
+		return vLandingSearchImg;
+	}
+
+	public void setvLandingSearchImg(WebElement vLandingSearchImg) {
+		this.vLandingSearchImg = vLandingSearchImg;
+	}
+
+	public WebElement getvLandingSearch() {
+		return vLandingSearch;
+	}
+
+	public void setvLandingSearch(WebElement vLandingSearch) {
+		this.vLandingSearch = vLandingSearch;
+	}
+
 	public LandinggPage(AppiumDriver driver) {
 		PageFactory.initElements(driver, this);
 		this.driver = driver;
@@ -28,6 +50,15 @@ AppiumDriver<AndroidElement> driver;
 	
 	public boolean verifyHome() {
 		return vLandingHome.isDisplayed();
+	}
+	
+	public void searchItem(String aitem) {
+		getvLandingSearch().click();
+		getvLandingSearch().sendKeys(aitem);
+	}
+	
+	public void clickSearch() {
+		getvLandingSearchImg().click();
 	}
 
 }
