@@ -125,7 +125,7 @@ public class AmazonApp extends TestDriver {
 		
 	}
 	
-	@Test(dependsOnMethods = {"launchApp"}, dataProvider = "commondata", dataProviderClass = TestDataFromExcel.class, groups={"Regression","NP"}, priority=6)
+	@Test(description = "Search product with valid results",dependsOnMethods = {"launchApp"}, dataProvider = "commondata", dataProviderClass = TestDataFromExcel.class, groups={"Regression","NP"}, priority=6)
 	public void aSearchItem(Map hm) throws Exception {
 		String tcid = CommonHelpers.initReports(hm);
 		String aprod = hm.get("Product").toString();
@@ -136,7 +136,40 @@ public class AmazonApp extends TestDriver {
 		landinggPage.searchItem(aprod);
 		//driver.pressKeyCode(AndroidKeyCode.ENTER);
 		driver.executeScript("mobile: performEditorAction", ImmutableMap.of("action", "search"));
-		aha.clickSearch();
+		aha.clickSearch(hm);
+		String prodtext = productPage.getvProductTitle().getText();
+		System.out.println("text on prod is "+prodtext);
+		String prodprice = productPage.getvProductPrice().getText();
+		System.out.println("text on prod price is "+prodprice);
+
+		productPage.getvProductAddToCart().click();
+		productPage.getvProductProceedToCart().click();
+		
+		productPage.getvCart().click();
+		String cartProdTitle = productPage.getvCartProdTitle().getText();
+		String cartProdPrice = productPage.getvCartProdPrice().getText();
+		if(prodtext.contains(cartProdTitle)) {
+			System.out.println("title is same in search and cart");
+		}
+		
+		if(prodprice.contains(cartProdPrice)) {
+			System.out.println("price is same in search and cart");
+		}
+		
+	}
+	
+	@Test(description = "Search product with valid results",dependsOnMethods = {"launchApp"}, dataProvider = "commondata", dataProviderClass = TestDataFromExcel.class, groups={"Regression","NP"}, priority=6)
+	public void aSearchItemA(Map hm) throws Exception {
+		String tcid = CommonHelpers.initReports(hm);
+		String aprod = hm.get("Product").toString();
+		AppHelpers aha = new AppHelpers();
+		LoginPage loginPage = new LoginPage(driver);
+		LandinggPage landinggPage = new LandinggPage(driver);
+		ProductPage productPage = new ProductPage(driver);
+		landinggPage.searchItem(aprod);
+		//driver.pressKeyCode(AndroidKeyCode.ENTER);
+		driver.executeScript("mobile: performEditorAction", ImmutableMap.of("action", "search"));
+		aha.clickSearch(hm);
 		String prodtext = productPage.getvProductTitle().getText();
 		System.out.println("text on prod is "+prodtext);
 		String prodprice = productPage.getvProductPrice().getText();

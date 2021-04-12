@@ -2,6 +2,7 @@ package util;
 
 import java.io.InputStream;
 import java.util.List;
+import java.util.Map;
 import java.util.Properties;
 
 import org.openqa.selenium.By;
@@ -38,6 +39,20 @@ public class AppHelpers extends GenericMethods {
 		safeLoginPage.loginToApp(uname, pwd);
 	}
 	
+	public static void invalidloginToApp_1() throws Exception {
+		LoginPage safeLoginPage = new LoginPage(driver);
+		String uname = getUnamePwd("username");
+		String pwd = getUnamePwd("npassword");
+		safeLoginPage.loginToApp(uname, pwd);
+	}
+	
+	public static void invalidloginToApp_2() throws Exception {
+		LoginPage safeLoginPage = new LoginPage(driver);
+		String uname = getUnamePwd("nusername");
+		String pwd = getUnamePwd("npassword");
+		safeLoginPage.loginToApp(uname, pwd);
+	}
+	
 	
 	public static String getUnamePwd(String key) throws Exception {
 		
@@ -66,13 +81,14 @@ public class AppHelpers extends GenericMethods {
 		}
 	}
 	
-	public void clickSearch() {
+	public void clickSearch(Map hm) {
+		String prodToSearch = hm.get("SearchProd").toString();
 		//List<WebElement> ares = driver.findElements(ById("com.amazon.mShop.android.shopping:id/rs_vertical_stack_view"));
 		AndroidElement searchtree = driver.findElement(By.className("android.widget.ListView"));
 		System.out.println("search e;lements are "+searchtree);
 		List<MobileElement> childres = searchtree.findElements(By.className("android.widget.LinearLayout"));
 		for(int i=2;i<childres.size()-1;i++) {
-			scrollAndClick("Sony Bravia 164 cm");
+			scrollAndClick(prodToSearch);
 			break;
 		}
 		
