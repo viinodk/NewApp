@@ -3,6 +3,7 @@ package testScripts;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import com.google.common.collect.ImmutableMap;
 import com.relevantcodes.extentreports.LogStatus;
@@ -11,6 +12,7 @@ import driverClass.TestDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidKeyCode;
+import jdk.internal.org.jline.utils.Log;
 import pages.ChangeCountry;
 import pages.HamburgerPage;
 import pages.LandinggPage;
@@ -22,6 +24,7 @@ import util.CommonHelpers;
 import util.GenericMethods;
 import util.TestDataFromExcel;
 
+import static org.testng.Assert.assertEquals;
 import static util.GenericMethods.driver;
 
 import java.io.IOException;
@@ -138,23 +141,26 @@ public class AmazonApp extends TestDriver {
 		driver.executeScript("mobile: performEditorAction", ImmutableMap.of("action", "search"));
 		aha.clickSearch(hm);
 		String prodtext = productPage.getvProductTitle().getText();
-		System.out.println("text on prod is "+prodtext);
+		logger.info("text on prod is "+prodtext);
 		String prodprice = productPage.getvProductPrice().getText();
-		System.out.println("text on prod price is "+prodprice);
-
+		logger.info("text on prod price is "+prodprice);
 		productPage.getvProductAddToCart().click();
 		productPage.getvProductProceedToCart().click();
 		
 		productPage.getvCart().click();
 		String cartProdTitle = productPage.getvCartProdTitle().getText();
 		String cartProdPrice = productPage.getvCartProdPrice().getText();
+		
+		SoftAssert assert1 = new SoftAssert();
+		assert1.assertEquals(prodtext, prodtext.contains(cartProdTitle), "Title is different from search and cart");
 		if(prodtext.contains(cartProdTitle)) {
-			System.out.println("title is same in search and cart");
+			logger.info("title is same in search and cart");
 		}
 		
 		if(prodprice.contains(cartProdPrice)) {
-			System.out.println("price is same in search and cart");
+			logger.info("price is same in search and cart");
 		}
+		assert1.assertEquals(prodprice, prodprice.contains(cartProdPrice), "Price is different from search and cart");
 		
 	}
 	
@@ -171,9 +177,10 @@ public class AmazonApp extends TestDriver {
 		driver.executeScript("mobile: performEditorAction", ImmutableMap.of("action", "search"));
 		aha.clickSearch(hm);
 		String prodtext = productPage.getvProductTitle().getText();
-		System.out.println("text on prod is "+prodtext);
+		logger.info("text on prod is "+prodtext);
 		String prodprice = productPage.getvProductPrice().getText();
-		System.out.println("text on prod price is "+prodprice);
+		logger.info("text on prod price is "+prodprice);
+		
 
 		productPage.getvProductAddToCart().click();
 		productPage.getvProductProceedToCart().click();
@@ -181,13 +188,16 @@ public class AmazonApp extends TestDriver {
 		productPage.getvCart().click();
 		String cartProdTitle = productPage.getvCartProdTitle().getText();
 		String cartProdPrice = productPage.getvCartProdPrice().getText();
+		SoftAssert assert2 = new SoftAssert();
+		assert2.assertEquals(prodtext, prodtext.contains(cartProdTitle), "Title is different from search and cart");
 		if(prodtext.contains(cartProdTitle)) {
-			System.out.println("title is same in search and cart");
+			logger.info("title is same in search and cart");
 		}
 		
 		if(prodprice.contains(cartProdPrice)) {
-			System.out.println("price is same in search and cart");
+			logger.info("price is same in search and cart");
 		}
+		assert2.assertEquals(prodprice, prodprice.contains(cartProdPrice), "Price is different from search and cart");
 		
 	}
 	

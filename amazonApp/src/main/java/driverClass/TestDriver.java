@@ -98,7 +98,7 @@ public class TestDriver {
 					
 				}
 			else if(result.getStatus()==ITestResult.SUCCESS)
-				startTest.log(LogStatus.PASS, "Test case passed");
+				startTest.log(LogStatus.PASS, "Test case passed",result.getThrowable().toString() + startTest.addScreenCapture(getScreenshot()));
 			//genericMethods.driver.closeApp();
 			extentReports.endTest(startTest);
 		}

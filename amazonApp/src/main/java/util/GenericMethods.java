@@ -5,6 +5,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
@@ -42,6 +43,7 @@ public class GenericMethods {
 			
 	        	
 			driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"),cap);
+			driver.manage().window().setSize(new Dimension(1024, 768));
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		}
 
